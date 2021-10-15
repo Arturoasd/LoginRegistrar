@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginRegistrar">
         <activity
+            android:name=".editar_loft"
+            android:exported="true" />
+        <activity
             android:name=".editar_cliente"
             android:exported="true" />
         <activity
