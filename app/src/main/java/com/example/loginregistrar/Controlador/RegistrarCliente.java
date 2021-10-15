@@ -23,7 +23,7 @@ public class RegistrarCliente extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState)
     {
-        View vista = inflater.inflate(R.layout.fragment_registrar_cliente, container, false);
+        View vista = inflater.inflate(R.layout.vista_registrarusuario, container, false);
 
 
 

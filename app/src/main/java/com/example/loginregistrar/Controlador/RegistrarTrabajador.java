@@ -23,7 +23,7 @@ public class RegistrarTrabajador extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View vista = inflater.inflate(R.layout.fragment_registrar_trabajador, container, false);
+        View vista = inflater.inflate(R.layout.vista_registrar_trabajador, container, false);
 
 
 

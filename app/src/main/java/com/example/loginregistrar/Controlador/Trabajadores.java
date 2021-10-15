@@ -27,7 +27,7 @@ public class Trabajadores extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View vista = inflater.inflate(R.layout.fragment_trabajadores, container, false);
+        View vista = inflater.inflate(R.layout.vista_listatrabajadores, container, false);
 
         Button registrarTra = vista.findViewById(R.id.btnRegistrarTra);
 

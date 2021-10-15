@@ -26,7 +26,7 @@ public class Clientes extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View vista = inflater.inflate(R.layout.fragment_clientes, container, false);
+        View vista = inflater.inflate(R.layout.v_duen_frag_clientes, container, false);
 
         Button btnRegistrarCl = vista.findViewById(R.id.btnRegistrarTra);
 

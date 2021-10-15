@@ -1,10 +1,8 @@
 package com.example.loginregistrar.Controlador;
 
-import android.content.ContentProviderOperation;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentTransaction;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -34,7 +32,7 @@ public class AgregarLoft extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View frag = inflater.inflate(R.layout.fragment_agregar_loft, container, false);
+        View frag = inflater.inflate(R.layout.v_dueñ_frag_loft, container, false);
 
         EditText edtNombreLoft = frag.findViewById(R.id.edtNombreLoft);
         Button btnVolver=frag.findViewById(R.id.btnVolver);
