@@ -13,7 +13,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class Home extends AppCompatActivity {
 
     Button btnCerrar;
-    //nahuel//
+    //nahuel esta bien//
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
