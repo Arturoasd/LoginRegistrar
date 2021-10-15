@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "303101268925",
+    "project_id": "ingresar-5c5e2",
+    "storage_bucket": "ingresar-5c5e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303101268925:android:230c40b2a7866672c278d4",
+        "android_client_info": {
+          "package_name": "com.example.loginregistrar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303101268925-76rpqaheo5oh31rqbp85f7odqerdqti8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq6BpJowL0NhMWO81KGf1KOZ6uaecC2oA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303101268925-76rpqaheo5oh31rqbp85f7odqerdqti8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
