@@ -10,6 +10,17 @@
         <entry key="..\:/Users/Delta9/Desktop/LoginRegistrar/app/src/main/res/layout/fragment_clientes.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Delta9/Desktop/LoginRegistrar/app/src/main/res/layout/fragment_loft.xml" value="0.12590579710144928" />
         <entry key="..\:/Users/Delta9/Desktop/LoginRegistrar/app/src/main/res/layout/fragment_registrar_cliente.xml" value="0.12590579710144928" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.115625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.115625" />
+        <entry key="app/src/main/res/layout/activity_registrar.xml" value="0.115625" />
+        <entry key="app/src/main/res/layout/activity_registrar_cliente.xml" value="0.115625" />
+        <entry key="app/src/main/res/layout/eskere.xml" value="0.115625" />
+        <entry key="app/src/main/res/layout/fragment_agregar_loft.xml" value="0.115625" />
+        <entry key="app/src/main/res/layout/fragment_clientes.xml" value="0.115625" />
+        <entry key="app/src/main/res/layout/fragment_loft.xml" value="0.115625" />
+        <entry key="app/src/main/res/layout/fragment_registrar_cliente.xml" value="0.115625" />
+        <entry key="app/src/main/res/layout/fragment_registrar_trabajador.xml" value="0.115625" />
+        <entry key="app/src/main/res/layout/fragment_trabajadores.xml" value="0.115625" />
       </map>
     </option>
   </component>
