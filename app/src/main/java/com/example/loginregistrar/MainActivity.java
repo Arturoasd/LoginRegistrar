@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void irahome()
     {
-        Intent i = new Intent(this,Home.class);
+        Intent i = new Intent(this,cliente.class);
         i.putExtra("mail",edtUsuario.getText().toString());
         i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP|Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(i);
