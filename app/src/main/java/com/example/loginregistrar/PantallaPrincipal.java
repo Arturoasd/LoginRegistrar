@@ -19,7 +19,7 @@ public class PantallaPrincipal extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.vista_dueño);
+        setContentView(R.layout.vista_duenos);
 
          tabLayout = findViewById(R.id.tabLayout);
          tab1 = findViewById(R.id.tabLoft);

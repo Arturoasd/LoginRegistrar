@@ -19,9 +19,6 @@
             android:name=".editar_trabajador"
             android:exported="true" />
         <activity
-            android:name=".Controlador.trabajador_pantallaprincipal"
-            android:exported="true" />
-        <activity
             android:name=".cliente"
             android:exported="true" />
         <activity

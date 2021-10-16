@@ -32,7 +32,7 @@ public class AgregarLoft extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View frag = inflater.inflate(R.layout.v_dueñ_frag_loft, container, false);
+        View frag = inflater.inflate(R.layout.v_duen_frag_loft, container, false);
 
         EditText edtNombreLoft = frag.findViewById(R.id.edtNombreLoft);
         Button btnVolver=frag.findViewById(R.id.btnVolver);
