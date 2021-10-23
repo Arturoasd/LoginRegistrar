@@ -53,7 +53,8 @@ public class MainActivity extends AppCompatActivity {
         awesomeValidation.addValidation(this,R.id.edtUsuario, Patterns.EMAIL_ADDRESS,R.string.invalid_mail);
         awesomeValidation.addValidation(this,R.id.edtContraseña,".{6,}",R.string.invalid_password);
 
-        btnIngresar.setOnClickListener(new View.OnClickListener() {
+        btnIngresar.setOnClickListener(new View.OnClickListener()
+        {
             @Override
             public void onClick(View v)
             {
@@ -62,14 +63,17 @@ public class MainActivity extends AppCompatActivity {
                     String mail = edtUsuario.getText().toString();
                     String pass = edtContraseña.getText().toString();
 
-                    firebaseAuth.signInWithEmailAndPassword(mail,pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                    firebaseAuth.signInWithEmailAndPassword(mail,pass).addOnCompleteListener(new OnCompleteListener<AuthResult>()
+                    {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task)
                         {
                             if(task.isSuccessful())
                             {
                                 irahome();
-                            } else {
+                            }
+                            else
+                                {
                                 String errorCode = ((FirebaseAuthException)task.getException()).getErrorCode();
                                 Toast.makeText(MainActivity.this, errorCode, Toast.LENGTH_SHORT).show();
                             }

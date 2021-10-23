@@ -10,36 +10,26 @@
         <entry key="..\:/Users/Delta9/Desktop/LoginRegistrar/app/src/main/res/layout/fragment_clientes.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Delta9/Desktop/LoginRegistrar/app/src/main/res/layout/fragment_loft.xml" value="0.12590579710144928" />
         <entry key="..\:/Users/Delta9/Desktop/LoginRegistrar/app/src/main/res/layout/fragment_registrar_cliente.xml" value="0.12590579710144928" />
-        <entry key="app/src/main/res/layout/activity_home.xml" value="0.115625" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.115625" />
-        <entry key="app/src/main/res/layout/activity_registrar.xml" value="0.115625" />
-        <entry key="app/src/main/res/layout/activity_registrar_cliente.xml" value="0.115625" />
-        <entry key="app/src/main/res/layout/eskere.xml" value="0.115625" />
-        <entry key="app/src/main/res/layout/fragment_agregar_loft.xml" value="0.115625" />
-        <entry key="app/src/main/res/layout/fragment_clientes.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/fragment_loft.xml" value="0.115625" />
-        <entry key="app/src/main/res/layout/fragment_registrar_cliente.xml" value="0.115625" />
-        <entry key="app/src/main/res/layout/fragment_registrar_trabajador.xml" value="0.115625" />
-        <entry key="app/src/main/res/layout/fragment_trabajadores.xml" value="0.3069198608398438" />
-        <entry key="app/src/main/res/layout/v_duen_frag_clientes.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/layout/v_duen_frag_loft.xml" value="0.57740478515625" />
-        <entry key="app/src/main/res/layout/v_duen_frag_lofts.xml" value="0.15520833333333334" />
-        <entry key="app/src/main/res/layout/vista_cliente.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/vista_duenos.xml" value="0.16893115942028986" />
-        <entry key="app/src/main/res/layout/vista_editar_cliente.xml" value="0.29583333333333334" />
-        <entry key="app/src/main/res/layout/vista_editar_loft.xml" value="0.15520833333333334" />
-        <entry key="app/src/main/res/layout/vista_editar_trabajador.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/layout/vista_iniciarsesion_usuario.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/layout/vista_listatrabajadores.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/layout/vista_login.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/layout/vista_registrar_trabajador.xml" value="0.15520833333333334" />
-        <entry key="app/src/main/res/layout/vista_registrarusuario.xml" value="0.15520833333333334" />
-        <entry key="app/src/main/res/layout/vista_sesion_iniciada_prueba.xml" value="0.15520833333333334" />
-        <entry key="app/src/main/res/layout/vista_trabajador_pantallaprincipal.xml" value="0.3098958333333333" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/activity_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/activity_registrar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/activity_registrar_cliente.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/fragment_clientes.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/fragment_registrar_cliente.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/v_duen_frag_clientes.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/v_duen_frag_loft.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/vista_cliente.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/vista_duenos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/vista_editar_cliente.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/vista_editar_loft.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/vista_listatrabajadores.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/vista_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/vista_registrarusuario.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/vista_trabajador_pantallaprincipal.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" project-jdk-name="16" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="16" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
