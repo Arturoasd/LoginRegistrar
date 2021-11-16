@@ -14,17 +14,23 @@
         <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/activity_registrar.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/activity_registrar_cliente.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/datos_loft.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/fragment_clientes.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/fragment_registrar_cliente.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/v_duen_frag_clientes.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/v_duen_frag_loft.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/v_duen_frag_lofts.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/vista_cliente.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/vista_duenos.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/vista_editar_cliente.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/vista_editar_loft.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/vista_editar_trabajador.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/vista_iniciarsesion_usuario.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/vista_listatrabajadores.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/vista_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/vista_registrar_trabajador.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/vista_registrarusuario.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/vista_sesion_iniciada_prueba.xml" value="0.3234375" />
         <entry key="..\:/Users/Jean/AndroidStudioProjects/LoginRegistrar1/app/src/main/res/layout/vista_trabajador_pantallaprincipal.xml" value="0.36666666666666664" />
       </map>
     </option>
