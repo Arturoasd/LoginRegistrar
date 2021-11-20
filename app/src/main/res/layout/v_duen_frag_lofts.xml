@@ -14,21 +14,21 @@
         android:layout_margin="20dp"
         android:orientation="vertical">
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyclerViewLoft"
-            android:layout_width="match_parent"
-            android:layout_height="78dp" />
-
         <View
             android:layout_height="1dp"
             android:layout_width="match_parent"
             android:layout_marginTop="20dp"
             />
 
+        <ListView
+            android:id="@+id/listViewLoft"
+            android:layout_width="match_parent"
+            android:layout_height="195dp" />
+
         <LinearLayout
             android:id="@+id/linearL"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton

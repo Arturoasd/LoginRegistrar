@@ -2,9 +2,8 @@ package com.example.loginregistrar.Controlador;
 
 import android.os.Bundle;
 
-import androidx.appcompat.app.AppCompatActivity;
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
@@ -15,33 +14,28 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 
-import com.example.loginregistrar.Adaptador.LoftAdapter;
 import com.example.loginregistrar.R;
-import com.example.loginregistrar.model.loft;
-import com.firebase.ui.firestore.FirestoreRecyclerOptions;
+import com.google.firebase.database.ChildEventListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.firestore.Query;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class AgregarLoft extends Fragment {
 
     EditText edtNombreLoft, edtComentarios;
 
-    RecyclerView recyclerViewLoft;
+    ListView listViewLoft;
 
     FirebaseFirestore db = FirebaseFirestore.getInstance();
-
     FirebaseFirestore mfirestore;
-
     DocumentReference newLoftRef = db.collection("lofts").document();
-
-    LoftAdapter mAdapter;
 
     public AgregarLoft() {
         // Required empty public constructor
@@ -59,21 +53,19 @@ public class AgregarLoft extends Fragment {
 
         View frag = inflater.inflate(R.layout.v_duen_frag_loft, container, false);
 
+        listViewLoft = frag.findViewById(R.id.listViewLoft);
+
         edtNombreLoft = frag.findViewById(R.id.edtNombreLoft);
         edtComentarios = frag.findViewById(R.id.edtComentario);
-        Button btnRegis=(Button)frag.findViewById(R.id.btnRegis);
+        Button btnRegis=frag.findViewById(R.id.btnRegis);
         Button btnVolver=frag.findViewById(R.id.btnVolver);
 
-        recyclerViewLoft = frag.findViewById(R.id.recyclerViewLoft);
-
+        //BOTON para agregar y mostrar datos en lista
         btnRegis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v)
             {
                 crearDatos();
-                recyclerViewLoft.setAdapter(mAdapter);
-                mostrarDatos();
-
             }
 
         });
@@ -105,22 +97,66 @@ public class AgregarLoft extends Fragment {
         newLoftRef.collection("lofts").document().set(map);
     }
 
-    LinearLayoutManager mLayout;
-
-    public void mostrarDatos()
+    ArrayAdapter<String> adapter;
+    ArrayList<String>arrayList=new ArrayList<>();
+    //Cargar y mostrar datos en ListView
+    private void mostrarDatos(LayoutInflater inflater, ViewGroup container)
     {
-        mLayout = new LinearLayoutManager(getActivity());
 
-        mfirestore = FirebaseFirestore.getInstance();
-        Query query = mfirestore.collection("lofts");
+        View frag = inflater.inflate(R.layout.v_duen_frag_loft, container, false);
 
-        FirestoreRecyclerOptions<loft> firestoreRecyclerOptions = new FirestoreRecyclerOptions.Builder<loft>().setQuery(query, loft.class).build();
+        DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference();
+        DatabaseReference mRootChild = mDatabase.child("lofts");
+        adapter = new ArrayAdapter<String>(this.getContext(), R.layout.v_duen_frag_lofts, arrayList);
 
-        mAdapter = new LoftAdapter(firestoreRecyclerOptions);
-        mAdapter.notifyDataSetChanged();
+        mRootChild.addChildEventListener(new ChildEventListener(){
+            @Override
+            public void onChildAdded(DataSnapshot dataSnapshot, String s){
+                String string = dataSnapshot.getValue(String.class);
+                arrayList.add(string);
+                adapter.notifyDataSetChanged();
+            }
+            @Override
+            public void onChildChanged(DataSnapshot dataSnapshot, String s){
+
+            }
+            @Override
+            public void onChildRemoved(DataSnapshot dataSnapshot){
+                String string = dataSnapshot.getValue(String.class);
+                arrayList.remove(string);
+                adapter.notifyDataSetChanged();
+            }
+            @Override
+            public void onChildMoved(DataSnapshot dataSnapshot, String s){
+
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError){
+
+            }
+        });
 
     }
-
-    //
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
